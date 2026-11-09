@@ -1,0 +1,50 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-align: left;
+}
+
+input[type=submit] {
+  background-color: #2b3e4e;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  button:hover {
+    background-color: #2196f3;
+  }
+}
+
+input[type=submit]:hover {
+  background-color: #2196f3;
+}
+
+.container {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 30px; 
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:hover {
+  background-color: #2196f3;
+}
+tr:nth-child(even) {
+  background-color: #9f9f9f;
+}
+h1 {
+  text-align: center;
+  ;
+}
